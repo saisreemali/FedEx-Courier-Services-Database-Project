@@ -70,6 +70,7 @@ In today's world, daily tasks include transporting goods to meet the needs of in
 
 ## Data Dictionary
 ![Data Dictionary](https://github.com/saisreemali/FedEx-Courier-Services-Database-Project/assets/170825386/c9183e0f-b0cd-40d5-8da6-d24935cea785)
+![Data Dictionary](https://github.com/saisreemali/FedEx-Courier-Services-Database-Project/assets/170825386/1a7d71f7-7a79-44b3-8c49-15bc9781d488)
 
 ## Database Creation
 Include screenshots or code snippets showcasing the creation of the database schema.
