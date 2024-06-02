@@ -69,7 +69,7 @@ In today's world, daily tasks include transporting goods to meet the needs of in
 ![ERD](https://github.com/saisreemali/FedEx-Courier-Services-Database-Project/assets/170825386/5fe7e275-f2db-4c9c-a459-65a194fbf5c7)
 
 ## Data Dictionary
-Provide a data dictionary explaining the attributes and entities in the database.
+![Data Dictionary](https://github.com/saisreemali/FedEx-Courier-Services-Database-Project/assets/170825386/c9183e0f-b0cd-40d5-8da6-d24935cea785)
 
 ## Database Creation
 Include screenshots or code snippets showcasing the creation of the database schema.
