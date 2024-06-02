@@ -76,6 +76,7 @@ In today's world, daily tasks include transporting goods to meet the needs of in
 Below are the screenshots for creating schema for FedEx database.
 ![Database Creation](https://github.com/saisreemali/FedEx-Courier-Services-Database-Project/assets/170825386/e9140ac8-aa85-4748-849e-d087968c2458)
 ![Database Creation](https://github.com/saisreemali/FedEx-Courier-Services-Database-Project/assets/170825386/e8afb372-8cfe-4310-9f87-e20c09e689ff)
+![Database Creation](https://github.com/saisreemali/FedEx-Courier-Services-Database-Project/assets/170825386/d8987709-67c3-4928-ab57-b85d64c12cac)
 
 ## Entity Generation and Data Entry
 Present tables for customer details, FedEx location details, order details, package details, receiver customer details, return package details, shipment details, and shipment services.
