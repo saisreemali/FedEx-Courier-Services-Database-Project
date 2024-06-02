@@ -82,4 +82,44 @@ Below are the screenshots for creating schema for FedEx database.
 Present tables for customer details, FedEx location details, order details, package details, receiver customer details, return package details, shipment details, and shipment services.
 
 ## Data Retrieval Using Join Queries
-Provide SQL queries along with explanations for various data retrieval scenarios.
+**Question 1** 
+List all the orders of receiver corresponding to the state ‘Texas’.
+- Query:
+Select odr.Order_ID,re.cus_state 
+from order_details_table as odr
+join receiver_customer_details as re 
+on odr.Receiver_ID=re.receiver_id
+where re.cus_state='Texas'
+- Explanation: The above three order Id’s has receiver customer ID residing in the state ‘Texas’.
+**Question 2**
+List the order ID and date along with the type of package and weight, where its weight is greater is than 30.
+- Query:
+Select odr.Order_ID,odr.Order_Date,pak.package_Type,pak.weight  
+from order_details_table as odr join package_details_table as pak on odr.Order_ID=pak.Order_Number 
+where pak.weight>30;
+- Explanation: Above results shows the orders details and type of package having weight greater than 30.
+**Question 3**  
+List order ID, order date, receiver customer first name, last name and the state starting with the letter ‘M’.
+- Query:
+Select odr.Order_ID,odr.order_date,re.cus_first_name,re.cus_last_name,re.cus_state  
+from order_details_table as odr join receiver_customer_details re on odr.receiver_id=re.receiver_id 
+where re.cus_state like 'M%';
+- Explanation: Above are the order and receiver customer detail for the receiver’s state starting with letter ‘M’.
+**Question 4**
+Display order Id and shipping date where shipping date is between 1st Nov 2022 and 31st Dec 2022.
+- Query:
+Select odr.order_id,pak.ship_date 
+from order_details_table as odr join package_details_table pak on odr.Order_ID=pak.Order_Number
+where ship_date between '2022-11-01' and '2022-12-31';
+- Explanation: Above resultant table displays order ID with shipping date in between the days mentioned in the question.
+**Question 5**
+Display order ID and date which corresponds to the package type ‘FedEx Box Small’ with number of packages greater than 2.
+
+- Query:
+SELECT odr.Order_Date ,odr.Order_ID 
+from order_details_table as odr join package_details_table as pak on odr.Order_ID=pak.Order_Number 
+where pak.Package_Type='FedEx Box Small' AND pak.No_Of_Packages>2;
+- Explanation: The result shows the order details whose package type FedEx Small Box with the count of packages is greater than 2.
+
+
+
