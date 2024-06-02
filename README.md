@@ -66,7 +66,7 @@ In today's world, daily tasks include transporting goods to meet the needs of in
 - Package IDs must be 7 characters long and unique.
 
 ## Entity-Relationship Diagram (ERD)
-Include the ERD representing the database schema.
+![ERD](https://github.com/saisreemali/FedEx-Courier-Services-Database-Project/assets/170825386/5fe7e275-f2db-4c9c-a459-65a194fbf5c7)
 
 ## Data Dictionary
 Provide a data dictionary explaining the attributes and entities in the database.
