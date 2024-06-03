@@ -116,6 +116,28 @@ Receiver_Customer_Details
 ![2](https://github.com/saisreemali/FedEx-Courier-Services-Database-Project/assets/170825386/20be6349-3977-4b88-a3d5-eafe46936ba3)
 ![3](https://github.com/saisreemali/FedEx-Courier-Services-Database-Project/assets/170825386/5c39722c-0b18-48c4-bdb6-3a350874779e)
 
+**TABLE 6** 
+Return_Package_Details_Table
+
+![1](https://github.com/saisreemali/FedEx-Courier-Services-Database-Project/assets/170825386/c65b5e95-c545-4cc1-b051-2d2505e797db)
+![2](https://github.com/saisreemali/FedEx-Courier-Services-Database-Project/assets/170825386/b4060c18-15c8-4948-8c06-e66b6faefb07)
+![3](https://github.com/saisreemali/FedEx-Courier-Services-Database-Project/assets/170825386/b6d9eb62-e7ff-4804-b1de-31fdb34c8b99)
+
+**TABLE 7** 
+Shipment_Details_Table
+
+![4](https://github.com/saisreemali/FedEx-Courier-Services-Database-Project/assets/170825386/d84c424c-261b-43a9-aee4-a4defa62bfa2)
+![5](https://github.com/saisreemali/FedEx-Courier-Services-Database-Project/assets/170825386/348e2b86-1607-4906-b4bd-97de0c0361ae)
+![6](https://github.com/saisreemali/FedEx-Courier-Services-Database-Project/assets/170825386/35b593c2-87d4-4334-816f-9f98cd8d77ae)
+
+**TABLE 8**
+Shipment_Service_Table
+
+![7](https://github.com/saisreemali/FedEx-Courier-Services-Database-Project/assets/170825386/bc478197-d9ac-4ce7-92ee-5c49ccf8af3e)
+![8](https://github.com/saisreemali/FedEx-Courier-Services-Database-Project/assets/170825386/fbb582aa-bcf3-4d69-b863-6abf6f37c82e)
+![9](https://github.com/saisreemali/FedEx-Courier-Services-Database-Project/assets/170825386/0db62a9b-be26-41bc-9d57-f165d0300f8a)
+
+
 ## Data Retrieval Using Join Queries
 **Question 1** 
 List all the orders of receiver corresponding to the state ‘Texas’.
