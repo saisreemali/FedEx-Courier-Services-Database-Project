@@ -108,6 +108,14 @@ Package_Details_Table
 ![1](https://github.com/saisreemali/FedEx-Courier-Services-Database-Project/assets/170825386/70924da5-2b06-4134-b831-a1d7fdb63535)
 ![2](https://github.com/saisreemali/FedEx-Courier-Services-Database-Project/assets/170825386/e4698c29-29ec-4563-84cc-1d196b98e9d0)
 ![3](https://github.com/saisreemali/FedEx-Courier-Services-Database-Project/assets/170825386/eaf3d3bf-6bbe-4f86-8cfb-862453d6b2aa)
+
+**TABLE 5** 
+Receiver_Customer_Details
+
+![1](https://github.com/saisreemali/FedEx-Courier-Services-Database-Project/assets/170825386/f7408ac3-4f44-4cb8-bde7-18bf4d310f76)
+![2](https://github.com/saisreemali/FedEx-Courier-Services-Database-Project/assets/170825386/20be6349-3977-4b88-a3d5-eafe46936ba3)
+![3](https://github.com/saisreemali/FedEx-Courier-Services-Database-Project/assets/170825386/5c39722c-0b18-48c4-bdb6-3a350874779e)
+
 ## Data Retrieval Using Join Queries
 **Question 1** 
 List all the orders of receiver corresponding to the state ‘Texas’.
