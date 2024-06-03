@@ -79,7 +79,14 @@ Below are the screenshots for creating schema for FedEx database.
 ![Database Creation](https://github.com/saisreemali/FedEx-Courier-Services-Database-Project/assets/170825386/d8987709-67c3-4928-ab57-b85d64c12cac)
 
 ## Entity Generation and Data Entry
-Present tables for customer details, FedEx location details, order details, package details, receiver customer details, return package details, shipment details, and shipment services.
+**TABLE 1** 
+Customer_Details_Table
+
+![1](https://github.com/saisreemali/FedEx-Courier-Services-Database-Project/assets/170825386/bf9f69cb-b684-437e-95b7-c2640ddd808c)
+![2](https://github.com/saisreemali/FedEx-Courier-Services-Database-Project/assets/170825386/3878fc3e-8bee-45a9-8c35-e239b8702daa)
+![3](https://github.com/saisreemali/FedEx-Courier-Services-Database-Project/assets/170825386/0266f01b-821b-4985-ad63-f0fbaebe08e7)
+![4](https://github.com/saisreemali/FedEx-Courier-Services-Database-Project/assets/170825386/118ecd3e-25b3-4a58-8f7d-df85fedea755)
+
 
 ## Data Retrieval Using Join Queries
 **Question 1** 
