@@ -147,6 +147,12 @@ from order_details_table as odr
 join receiver_customer_details as re 
 on odr.Receiver_ID=re.receiver_id
 where re.cus_state='Texas'
+
+![1](https://github.com/saisreemali/FedEx-Courier-Services-Database-Project/assets/170825386/5551b2a4-5259-405c-a46e-9084b1acb100)
+
+Result:
+![2](https://github.com/saisreemali/FedEx-Courier-Services-Database-Project/assets/170825386/50b66afb-4f92-4b91-9583-20e5743de2aa)
+
 - Explanation: The above three order Id’s has receiver customer ID residing in the state ‘Texas’.
   
 **Question 2**
@@ -155,6 +161,12 @@ List the order ID and date along with the type of package and weight, where its 
 Select odr.Order_ID,odr.Order_Date,pak.package_Type,pak.weight  
 from order_details_table as odr join package_details_table as pak on odr.Order_ID=pak.Order_Number 
 where pak.weight>30;
+
+![3](https://github.com/saisreemali/FedEx-Courier-Services-Database-Project/assets/170825386/90042244-5668-4d32-8f67-ee2ca85e7817)
+
+Result:
+![4](https://github.com/saisreemali/FedEx-Courier-Services-Database-Project/assets/170825386/16641a57-fab9-4bec-82c5-9567ab5ea93b)
+
 - Explanation: Above results shows the orders details and type of package having weight greater than 30.
   
 **Question 3**  
@@ -163,6 +175,12 @@ List order ID, order date, receiver customer first name, last name and the state
 Select odr.Order_ID,odr.order_date,re.cus_first_name,re.cus_last_name,re.cus_state  
 from order_details_table as odr join receiver_customer_details re on odr.receiver_id=re.receiver_id 
 where re.cus_state like 'M%';
+
+![5](https://github.com/saisreemali/FedEx-Courier-Services-Database-Project/assets/170825386/9140d58e-a079-4657-bf4b-5dc06bada431)
+
+Result:
+![6](https://github.com/saisreemali/FedEx-Courier-Services-Database-Project/assets/170825386/6dce550a-60e4-4b6c-b307-30a0641b75c1)
+
 - Explanation: Above are the order and receiver customer detail for the receiver’s state starting with letter ‘M’.
   
 **Question 4**
@@ -171,6 +189,12 @@ Display order Id and shipping date where shipping date is between 1st Nov 2022 a
 Select odr.order_id,pak.ship_date 
 from order_details_table as odr join package_details_table pak on odr.Order_ID=pak.Order_Number
 where ship_date between '2022-11-01' and '2022-12-31';
+
+![7](https://github.com/saisreemali/FedEx-Courier-Services-Database-Project/assets/170825386/886840ac-9a6b-4d57-a70d-4f2f223885df)
+
+Result:
+![8](https://github.com/saisreemali/FedEx-Courier-Services-Database-Project/assets/170825386/96b60a7f-965d-470e-99f0-c28fce6e0dea)
+
 - Explanation: Above resultant table displays order ID with shipping date in between the days mentioned in the question.
   
 **Question 5**
@@ -180,6 +204,12 @@ Display order ID and date which corresponds to the package type ‘FedEx Box Sma
 SELECT odr.Order_Date ,odr.Order_ID 
 from order_details_table as odr join package_details_table as pak on odr.Order_ID=pak.Order_Number 
 where pak.Package_Type='FedEx Box Small' AND pak.No_Of_Packages>2;
+
+![9](https://github.com/saisreemali/FedEx-Courier-Services-Database-Project/assets/170825386/ce13514a-5113-4756-9f7a-b72efbb1935c)
+
+Result: 
+![10](https://github.com/saisreemali/FedEx-Courier-Services-Database-Project/assets/170825386/6b93ad40-b60a-433b-9540-0b3f3936c72f)
+
 - Explanation: The result shows the order details whose package type FedEx Small Box with the count of packages is greater than 2.
 
 
