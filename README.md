@@ -87,6 +87,14 @@ Customer_Details_Table
 ![3](https://github.com/saisreemali/FedEx-Courier-Services-Database-Project/assets/170825386/0266f01b-821b-4985-ad63-f0fbaebe08e7)
 ![4](https://github.com/saisreemali/FedEx-Courier-Services-Database-Project/assets/170825386/118ecd3e-25b3-4a58-8f7d-df85fedea755)
 
+**TABLE 2**
+FedEX_Loc_Details_Table
+
+![1](https://github.com/saisreemali/FedEx-Courier-Services-Database-Project/assets/170825386/f9527329-42a2-444e-b25b-84bee3e1195c)
+![2](https://github.com/saisreemali/FedEx-Courier-Services-Database-Project/assets/170825386/63590f3d-2397-4b2a-a844-1dca12d1dcb6)
+![3](https://github.com/saisreemali/FedEx-Courier-Services-Database-Project/assets/170825386/6bf7a3db-5cd7-4a08-aa00-10850a5027be)
+![4](https://github.com/saisreemali/FedEx-Courier-Services-Database-Project/assets/170825386/0a7c2f52-99c3-4c54-b1a2-261971ddcef3)
+
 
 ## Data Retrieval Using Join Queries
 **Question 1** 
